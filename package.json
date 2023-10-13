@@ -1,0 +1,25 @@
+{
+  "name": "amplituder",
+  "version": "1.0.0",
+  "description": "Node project for sending events to Amplitude via http",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yogesh-sriraman/node-amplituder.git"
+  },
+  "author": "Yogesh Sriraman",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "axios-retry": "^3.1.2",
+    "fs": "0.0.1-security",
+    "tail": "^2.0.2",
+    "urlencode": "^1.1.0",
+    "winston": "^3.2.1",
+    "yamljs": "^0.3.0",
+    "commander": "^2.19.0"
+  }
+}
